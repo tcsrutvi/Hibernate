@@ -11,7 +11,13 @@
 		<property name="hibernate.connection.password">Nuvelabs123$</property>
 		<property name="show_sql">true</property>
 		<property name="hbm2ddl.auto">create</property>
-		<mapping class='hibernate.test.manyToMany.ReaderEntity'/>
-		<mapping class='hibernate.test.manyToMany.SubscriptionEntity'/>
+		<!-- <mapping class='hibernate.test.onetoMany.AccountEntity'/>
+		<mapping class='hibernate.test.onetoMany.UserEntity'/> -->
+		
+		<!-- <mapping class='hibernate.test.manyToMany.ReaderEntity'/>
+		<mapping class='hibernate.test.manyToMany.SubscriptionEntity'/> -->
+		<mapping class='hibernate.test.OnetoOne.AccountEntity1'/>
+		<mapping class='hibernate.test.OnetoOne.EmployeeEntity'/>
+		
 	</session-factory>
 </hibernate-configuration>
